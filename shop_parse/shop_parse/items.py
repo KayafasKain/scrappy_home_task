@@ -15,5 +15,5 @@ class ShopParseItem(scrapy.Item):
     description = scrapy.Field()
     currency = scrapy.Field()
     brand = scrapy.Field()
-    #size = scrapy.Field()
+    sizes = scrapy.Field()
     images = scrapy.Field()
